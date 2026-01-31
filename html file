@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Simple Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="outer-box">
+        <div class="form-box">
+            <form onsubmit="showMessage(); return false;">
+                <div class="row">
+                    <label>Name</label>
+                    <input type="text" required>
+                </div>
+
+                <div class="row">
+                    <label>Email</label>
+                    <input type="email" required>
+                </div>
+
+                <div class="row">
+                    <label>Phone</label>
+                    <input type="text" required>
+                </div>
+
+                <div class="btn-row">
+                    <button type="submit">Submit</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
